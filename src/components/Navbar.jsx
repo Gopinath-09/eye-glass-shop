@@ -2,7 +2,6 @@ import {logo , navLink} from '../assets/asset';
 
 export const Navbar = () => {
   window.addEventListener('scroll',()=>{
-    console.log(window.scrollY);
     window.scrollY > 100 ? document.getElementById('navbar').style.backgroundColor = 'black' :
     document.getElementById('navbar').style.backgroundColor = '';
   })
